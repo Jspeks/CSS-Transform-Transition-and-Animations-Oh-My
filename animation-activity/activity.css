@@ -33,8 +33,12 @@ nav {
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
 }
 
 @keyframes bottom {
